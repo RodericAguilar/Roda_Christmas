@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <style>
+            @font-face { font-family: Navidad; src: url('font/Christmas-Squad.otf'); }  
+            @font-face { font-family: Navidad2; src: url('font/Snowy-Christmas.otf'); } 
+        </style>
+    </head>
+
+    <body>
+            <div class="container" style="display: none;">
+                <div class="card-outer">
+                    <div class="card" onclick="flip(event)" id="wbda">
+                        <div class="card-inner">
+
+                            <div class="card-front" >
+                                <h1 style="font-family: Navidad;font-size: 500%; color: white;">Merry</h1>
+                                <h1 style="font-family: Navidad;font-size: 500%; color: white;">Christmas</h1>
+                                <br><br>
+                                <h1 style="color: white; font-family: Navidad2; font-size: 300%;" id="mensanje">Voltea para ver tu regalo!</h1>
+                          </div>
+                            <div class="card-back">
+                      
+                                <p class="number-text" style="font-family: Navidad2;font-size: 250%; padding-left: 40%; padding-top: 0%; color: white;"><span id="ganaste">Luck for the next 😭</span></p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- <a href="#" class="button" style="font-family: Navidad2; font-size: 250%; float: right;">/a> -->
+                    <form method="post">
+                        <input type="submit" value="Get your Gift" class="button">
+                    </form>
+                </div>
+            </div>
+        <script src="app.js"></script>
+    </body>
+</html>
