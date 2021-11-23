@@ -10,4 +10,4 @@
 
 ## If you use esx, just insert this:
 
-INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('xmaxticket', 'Gift Card Xmas', 1, 0, 1); 
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('xmasticket', 'Gift Card Xmas', 1, 0, 1); 
